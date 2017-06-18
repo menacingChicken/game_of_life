@@ -73,6 +73,11 @@ class MainFrame(wx.Frame):
 
         self.Bind(wx.EVT_SLIDER, self._on_slider_changed, self.speed_slider)
 
+        self.SetSize((500, 500))
+
+        self.speed_slider.SetValue(100)
+        self._on_slider_changed(None)
+
     def _on_slider_changed(self, evt):
         new_value = self.speed_slider.GetValue()
         self.speed_value.SetLabel(str(new_value))
