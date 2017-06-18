@@ -86,4 +86,3 @@ myself, but don't let that stop you!
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
 ## Acknowledgments
-Trying this...
